@@ -409,7 +409,7 @@
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Ps5JcLdkEemb2ZsLKZEPgg" name="pmi_controller">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ps5JcLdkEemb2ZsLKZEPgg" name="Pmi_Controller">
         <ownedOperation xmi:type="uml:Operation" xmi:id="_vCF_IL1hEemYydH-3GGM7A" name="getInventoryList">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_vCF_Ib1hEemYydH-3GGM7A" name="searchSelection">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -425,6 +425,10 @@
           </ownedParameter>
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_3Y-28r10EemYydH-3GGM7A" name="result" type="_bRW3YLZBEemb2ZsLKZEPgg" direction="return"/>
         </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_IAMWcBigEey9Cb3WWbgUTg" name="setUpdate"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vTWz0BigEey9Cb3WWbgUTg" name="setAdd"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_y1v8gBigEey9Cb3WWbgUTg" name="setDelete"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_2Q2xcBigEey9Cb3WWbgUTg" name="checkStatus"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_IGsHELyIEemb2ZsLKZEPgg" name="equipment_inventory"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_s211ILyIEemb2ZsLKZEPgg" name="Mainframe" visibility="package">
@@ -436,6 +440,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_rxI_ELyNEemb2ZsLKZEPgg" name="scheduler"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_1iwDELyNEemb2ZsLKZEPgg" name="history"/>
       <packagedElement xmi:type="uml:Class" xmi:id="__ycxQLyNEemb2ZsLKZEPgg" name="resources"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_APXB8BihEey9Cb3WWbgUTg" name="Pmi_Tack_Controller"/>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0EgbYLZWEemb2ZsLKZEPgg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0EwTALZWEemb2ZsLKZEPgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
@@ -540,7 +545,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fesLcbyMEemb2ZsLKZEPgg" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_fesygLyMEemb2ZsLKZEPgg" name="tasks" type="_cqeZQLarEemb2ZsLKZEPgg" association="_feq9ULyMEemb2ZsLKZEPgg"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_fexD8LyMEemb2ZsLKZEPgg" name="pmi_controller" type="_Ps5JcLdkEemb2ZsLKZEPgg" association="_feq9ULyMEemb2ZsLKZEPgg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fexD8LyMEemb2ZsLKZEPgg" name="pmi_controller" type="_APXB8BihEey9Cb3WWbgUTg" association="_feq9ULyMEemb2ZsLKZEPgg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_haE6ELyMEemb2ZsLKZEPgg" memberEnd="_haGIMryMEemb2ZsLKZEPgg _haKZoLyMEemb2ZsLKZEPgg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_haGIMLyMEemb2ZsLKZEPgg" source="org.eclipse.papyrus">
